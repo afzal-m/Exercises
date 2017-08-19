@@ -1,0 +1,38 @@
+<!--
+  Generated template for the ButtonsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Buttons</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <button ion-button block (click)="CallWord('Red')">RED</button>
+        <button ion-button block (click)="CallWord('Blue')">BLUE</button>
+        <button ion-button block (click)="CallWord('Green')">GREEN</button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-item>The colour is {{word}}</ion-item>
+
+
+    </ion-row>
+
+
+
+  </ion-grid>
+
+
+</ion-content>

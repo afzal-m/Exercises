@@ -1,14 +1,47 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Generic Calculator
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+  <br>
+  <br>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Number">
+
+      </ion-input>
+    </ion-item>
+      </ion-list>
+
+
+  <button ion-button large (click)="Back()">CLEAR</button>
+  <br>
+  <button ion-button large>7</button>
+  <button ion-button large>8</button>
+  <button ion-button large>9</button>
+  <button ion-button large>/</button>
+  <br>
+  <button ion-button large>4</button>
+  <button ion-button large>5</button>
+  <button ion-button large>6</button>
+  <button ion-button large>X</button>
+  <br>
+  <button ion-button large (click)="1">1</button>
+  <button ion-button large>2</button>
+  <button ion-button large>3</button>
+  <button ion-button large>-</button>
+  <br>
+  <button ion-button large>0</button>
+  <button ion-button large>.</button>
+  <button ion-button large>=</button>
+  <button ion-button large>+</button>
+
+
 </ion-content>
