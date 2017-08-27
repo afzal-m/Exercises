@@ -8,6 +8,9 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { CalculatorUiPage } from '../pages/calculator-ui/calculator-ui';
 import { ButtonsPage} from "../pages/buttons/buttons";
+import {ColoursPage} from "../pages/colours/colours";
+import {ColourBluePage} from "../pages/colour-blue/colour-blue";
+import {ColourGreenPage} from "../pages/colour-green/colour-green";
 
 
 @NgModule({
@@ -16,6 +19,9 @@ import { ButtonsPage} from "../pages/buttons/buttons";
     HomePage,
     CalculatorUiPage,
     ButtonsPage,
+    ColoursPage,
+    ColourBluePage,
+    ColourGreenPage,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +33,9 @@ import { ButtonsPage} from "../pages/buttons/buttons";
     HomePage,
     CalculatorUiPage,
     ButtonsPage,
+    ColoursPage,
+    ColourBluePage,
+    ColourGreenPage,
   ],
   providers: [
     StatusBar,

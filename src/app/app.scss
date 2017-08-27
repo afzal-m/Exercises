@@ -14,3 +14,16 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+ @import "../pages/colours/colours";
+
+.BluePg {
+  background-color: #488aff;
+}
+
+.RedPg {
+  background-color: #f53d3d;
+}
+
+.GreenPg {
+  background-color: #32db64;
+}
